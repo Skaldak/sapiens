@@ -22,8 +22,7 @@ from .plugin import build_plugin_layer
 from .scale import LayerScale, Scale
 from .swish import Swish
 from .upsample import build_upsample_layer
-from .wrappers import (Conv2d, Conv3d, ConvTranspose2d, ConvTranspose3d,
-                       Linear, MaxPool2d, MaxPool3d)
+from .wrappers import Conv2d, Conv3d, ConvTranspose2d, ConvTranspose3d, Linear, MaxPool2d, MaxPool3d
 
 __all__ = [
     'ConvModule', 'build_activation_layer', 'build_conv_layer',
