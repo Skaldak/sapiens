@@ -7,10 +7,14 @@ pretrain/checkpoints
 seg/data
 seg/Outputs
 seg/checkpoints
+
 __pycache__/
+
 *.pyc
 *.ipynb_checkpoints
 *.so
 *.DS_Store
 *._*
 *.egg
+
+.idea/
